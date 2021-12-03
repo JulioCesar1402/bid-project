@@ -1,0 +1,27 @@
+
+use("test");
+
+const collection = 'products';
+
+db.createCollection(collection);
+
+db.products.insertMany([
+  {
+    name: "TV 32 POLEGADAS FULL HD",
+    image:
+    "🖥️",
+    price: 0,
+  },
+  {
+    name: "Teddy Bear",
+    image:
+    "🧸",
+    price: 0,
+  },
+  {
+    name: "Postal Horn",
+    image:
+    "📯",
+    price: 0,
+  }
+]);
